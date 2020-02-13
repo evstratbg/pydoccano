@@ -51,7 +51,6 @@ class Doccano(BaseApi):
             version=version
         )
 
-
     def get_me(self):
         return self._get(endpoint=f"{self.version}/me")
 
